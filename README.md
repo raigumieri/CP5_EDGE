@@ -24,7 +24,7 @@
 <p align="justify"> Caso você não tenha os equipamentos em mãos, você pode acessar o site Wokwi e realizar o procedimento, assim vai conseguir acompanhar e entender como é feito na prática </p>
 <h4> Link do site: https://wokwi.com/ </h4>
 
-<p align="center"> Para facilitar, vamos seguir o procedimento no próprio site Wokwi. A montagem dos componentes vai ficar dessa forma: </p>
+<p align="justify"> Para facilitar, vamos seguir o procedimento no próprio site Wokwi. A montagem dos componentes vai ficar dessa forma: </p>
 
 <div align="center">
   <img src="https://github.com/raigumieri/CP6_Edge/assets/127215645/c94edba7-6598-4eda-9f5f-6c7b6351d346"> 
