@@ -1,4 +1,4 @@
-<h1 align="center"> CheckPoint 6 - Projeto IOT </h1>
+<h1 align="center"> CheckPoint 5 - Projeto IOT </h1>
 
 <h3> Integrantes do grupo: </h3>
 
