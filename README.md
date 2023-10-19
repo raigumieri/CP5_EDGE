@@ -120,5 +120,5 @@
 
 <br> 
 
-<p align="justify"> Após esses passos, o projeto está finalizado. Agora é possível ter acesso aos dados de Temperatura, Umidade e Luminosidade em qualquer lugar de onde você estiver, desde que tenha acesso a internet para conseguir obter as informações.  </p>
+<p align="justify"> Após a conclusão destes passos, o projeto estará finalizado. Agora será possível acessar os dados de temperatura, umidade e luminosidade de qualquer local, desde que tenha conexão à Internet para obter as informações. </p>
 
