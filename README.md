@@ -59,7 +59,7 @@
 <div align="justify">
   <p> É necessário alterar o lamp108, pois ele é a porta onde será possível acessar a rede. Você pode alterar para lamp109, lamp110, etc...  </p>
   <p> No final dos 3 últimos tópicos, é possível analisar os finais “L, U, T”, essas são as siglas para identificar as portas em que estão os dados de Luminosidade, Umidade e Temperatura. </p>
-  <p> Outra alteração importante é na parte do Wifi, é necessário que você coloque o nome e senha da sua internet, para que o ESP32 consiga se conectar à rede. Todavia, se estiver realizando o passo a passo pelo site, é necessário colocar “Wokwi-GUEST” no nome da     rede sem colocar senha, pois o próprio site vai usar uma rede para conectar com o ESP32 (Linhas 41 e 42). </p>
+  <p> Outra alteração importante é na parte do Wifi, é necessário que você coloque o nome e senha da sua internet, para que o ESP32 consiga se conectar à rede. Todavia, se estiver realizando o passo a passo pelo site, é necessário colocar “Wokwi-GUEST” no nome da        rede sem colocar senha, pois o próprio site vai usar uma rede para conectar com o ESP32 (Linhas 41 e 42). </p>
 </div>
 
 <div>
