@@ -12,7 +12,7 @@
 
 <h2 align="center"> Introdução </h2>
 
-<p align="justify"> Nessa nova etapa do projeto, vamos montar um pequeno protótipo que será usado para medir alguns parâmetros, envolvendo temperatura, umidade e luminosidade. Para isso, vamos precisar de alguns sensores de monitoramento, que seriam: </p>
+<p align="justify"> Nesta nova fase do projeto, pretendemos desenvolver um pequeno protótipo destinado à medição de parâmetros relacionados à temperatura, umidade e luminosidade. Para alcançar esse objetivo, será necessário a utilização de sensores de monitoramento, que seriam: </p>
 <ul> 
  <li> ESP32; </li>
  <li> Placa de ensaio; </li>
@@ -24,7 +24,7 @@
 <p align="justify"> Caso você não tenha os equipamentos em mãos, você pode acessar o site Wokwi e realizar o procedimento, assim vai conseguir acompanhar e entender como é feito na prática </p>
 <h4> Link do site: https://wokwi.com/ </h4>
 
-<p align="justify"> Para facilitar, vamos seguir o procedimento no próprio site Wokwi. A montagem dos componentes vai ficar dessa forma: </p>
+<p align="justify"> Para facilitar, vamos seguir o procedimento no próprio site Wokwi. A montagem dos componentes ficará dessa forma: </p>
 
 <div align="center">
   <img src="https://github.com/raigumieri/CP6_Edge/assets/127215645/c94edba7-6598-4eda-9f5f-6c7b6351d346"> 
@@ -37,10 +37,10 @@
 <h2> Análise do Equipamento </h2>
 
 <div align="justify"> 
-  <p> O ESP32 vai ser muito importante nesse projeto, pois é graças a ele que vamos conseguir conectar a internet e salvar os valores obtidos pelos sensores na nuvem, sendo um processo bem eficiente quando você estiver longe do protótipo e deseja ter acesso as informações para saber sobre os dados coletados ou apenas analisar se o equipamento está funcionando normalmente. </p> 
-  <p> Caso você consiga conectar o projeto a sua rede wifi, você pode acessar ele e poderá fazer alguns comandos, fazendo com que ele ligue e desligue o led do ESP32 ou pegar os dados dos sensores que estão sendo utilizados. Para isso, você pode baixar o aplicativo MyMQTT ou usar uma aplicação do Google Colab, para ter acesso as medições do aparelho. </p>
+  <p> O ESP32 desempenha um papel fundamental neste projeto, uma vez que é por meio dele que estabeleceremos a conexão com a Internet e registraremos os valores coletados pelos sensores na nuvem. Isso se mostra particularmente eficaz quando se está distante do protótipo, permitindo o acesso às informações coletadas e a análise do funcionamento adequado do equipamento. </p> 
+  <p> Se você conseguir conectar o projeto à sua rede Wi-Fi, terá a capacidade de acessá-lo e executar comandos, como ligar e desligar o LED do ESP32, além de coletar dados dos sensores em uso. Para realizar essas operações, é possível utilizar o aplicativo MyMQTT ou uma aplicação no Google Colab, que fornecerá acesso às medições do dispositivo. </p>
   <p> A placa de ensaio será de extrema importância, já que vai ser ela onde vamos fazer as devidas conexões entre o ESP32 e os sensores. </p>
-  <p> Falando em sensores, o DHT22 serve para fazer a medição de temperatura e umidade, no projeto físico você pode usar o DHT11, ele consegue fazer a mesma medição, ou seja, independente do que você escolher, ambos vão gerar os mesmos resultados. </p>
+  <p> Falando em sensores, o DHT22 é utilizado para medir a temperatura e a umidade. No projeto físico, também é possível optar pelo DHT11, que realiza as mesmas medições. Em outras palavras, independentemente da escolha, ambos proporcionarão resultados idênticos. </p>
   <p> Já o sensor LDR será utilizado para fazer a medição da luminosidade, divulgando como resposta a voltagem e o valor em porcentagem. </p>
 </div>
 
@@ -57,9 +57,9 @@
 <br>
 
 <div align="justify">
-  <p> É necessário alterar o lamp108, pois ele é a porta onde você vai conseguir acessar a rede. Você pode alterar para lamp109, lamp110, etc...  </p>
+  <p> É necessário alterar o lamp108, pois ele é a porta onde será possível acessar a rede. Você pode alterar para lamp109, lamp110, etc...  </p>
   <p> No final dos 3 últimos tópicos, é possível analisar os finais “L, U, T”, essas são as siglas para identificar as portas em que estão os dados de Luminosidade, Umidade e Temperatura. </p>
-  <p> Outra alteração importante é na parte do Wifi, é necessário que você coloque o nome e senha da sua internet, para que o ESP32 consiga se conectar à rede. Todavia, se estiver realizando o passo a passo pelo site, é necessário colocar “Wokwi-GUEST” no nome da     rede, sem colocar senha, pois o próprio site vai usar uma rede para conectar com o ESP32 (Linhas 41 e 42). </p>
+  <p> Outra alteração importante é na parte do Wifi, é necessário que você coloque o nome e senha da sua internet, para que o ESP32 consiga se conectar à rede. Todavia, se estiver realizando o passo a passo pelo site, é necessário colocar “Wokwi-GUEST” no nome da     rede sem colocar senha, pois o próprio site vai usar uma rede para conectar com o ESP32 (Linhas 41 e 42). </p>
 </div>
 
 <div>
