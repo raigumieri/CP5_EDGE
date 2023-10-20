@@ -14,7 +14,7 @@
 
 #define DHTPIN 4   
 #define DHTTYPE DHT11   // DHT 11
-#define DHTTYPE DHT22   // DHT 22
+
 
 //defines:
 //defines de id mqtt e tópicos para publicação e subscribe denominado TEF(Telemetria e Monitoramento de Equipamentos)
@@ -290,6 +290,7 @@ void loop()
     
     float t = dht.readTemperature();
     float f = dht.readTemperature(true);
+    dtostrf(t, 4, 2, msgBuffer);
     MQTT.publish(TOPICO_PUBLISH_4,msgBuffer);
 
   
